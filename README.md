@@ -17,6 +17,7 @@ Team [5327C] VEX Robotics Competition code for the 2024 season.
 - `include/`: Header files
 - `docs/`: Documentation /* TODO: */
 
-## Setup
-
-1. Install PROS CLI:
+## Resources
+https://www.ri.cmu.edu/pub_files/pub1/dellaert_frank_1999_2/dellaert_frank_1999_2.pdf
+https://www.youtube.com/watch?v=htE5cClSy4Y
+https://www.youtube.com/watch?v=BkxSYHpfnic

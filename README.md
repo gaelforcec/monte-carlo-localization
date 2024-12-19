@@ -1,6 +1,6 @@
 # VEX REAL TIME MONTE CARLO LOCALIZATION
 
-Team [5327C] VEX Robotics Competition code for the 2024 season.
+Team [5327C] VEX Monte Carlo Impl.
 
 ## Features
 

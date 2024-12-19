@@ -123,7 +123,10 @@ void MCLLocalizer::update() {
     kf_->update(measurement);
 
     lastUpdateTime_ = currentTime;
-    
+
+    chassis.odom_current.x = x;
+    chassis.odom_current.y = y;
+    chassis.odom_current.theta = theta;
     printf("x: %f, y: %f, theta: %f\n", x, y, theta);
     pros::delay(10);
 }
@@ -138,9 +141,7 @@ void MCLLocalizer::motionUpdate(double deltaForward, double deltaHorizontal, dou
         p.y += noisyForward * sin(p.theta) + noisyHorizontal * cos(p.theta);
         p.theta = normalizeAngle(p.theta + noisyHeading);
 
-        chassis.odom_current.x = p.x;
-        chassis.odom_current.y = p.y;
-        chassis.odom_current.theta = p.theta;
+        
 
     }
 }
